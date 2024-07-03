@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="navbar">
+            <img src="logo.png" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">PRODUCT</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">CONTACT</a></li>
+
+                </ul>
+            </nav>
+            <img src="menue.png" class="menue">
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <h1>GUCCI</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. At vitae quas dolores saepe aperiam tempore corporis, nisi aspernatur. Hic ratione sit necessitatibus itaque, sequi totam quae, doloremque amet nihil deserunt mollitia animi molestias ex ipsum, possimus eveniet accusamus ducimus quam! ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis alias doloribus assumenda non delectus veritatis, facilis fugit inventore. Excepturi, accusantium.</p>
+             <button>EXPLORE</button>
+            </div>
+            <div class="col">
+                <div class="card card1">
+             <h5>western shoes </h5>
+            </div>
+
+            
+                <div class="card card2">
+                <h5>western shoes </h5>
+               </div>
+
+               
+                <div class="card card3">
+                <h5>western shoes </h5>
+               </div>
+
+               
+                <div class="card card4">
+                <h5>western shoes </h5>
+               </div>
+   
+   
+
+    </div>
+</body>
+</html>
+
+
+<style>
+    .container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(you.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 180px;
+    cursor: pointer;
+    
+}
+.menue{
+    width: 30px;
+    cursor: pointer;
+    margin-left: 40px;
+    
+}
+nav{
+    flex: 2;
+    text-align: center;
+}
+nav ul li {
+    display: inline-block;
+    padding: 60px;
+}
+nav ul li a {
+   text-decoration: overline;
+    color: white;
+    font-size: larger;
+}
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+.col{
+    flex-basis: 50%;
+}
+h1{
+    color: white;
+    font-size: 100px;
+    transition: transform 0.5s ;
+
+}
+p{
+    color: white;
+    font-size: 50pxs;
+}
+button{
+    border: 2px solid;
+    border-radius: 20px;
+}
+.card{
+  width: 200px;
+  height: 250px;
+  display: inline-block;
+  border-radius: 10px;
+  margin: 10px 15px;
+  cursor: pointer;
+  padding: 15px 25px ;
+  box-sizing: border-box;
+  background-position: center;
+  background-size: cover;
+  transition: transform 0.5s;
+}
+.card1{
+    background-image: url(shoes\ 1.jpg);
+}
+.card2{
+    background-image: url(shoes2.jpg);
+}
+.card3{
+    background-image: url(shoes3.jpg);
+}
+.card4{
+    background-image: url(shoes4.jpg);
+}
+.card:hover{
+  transform: translateY(-10px)
+}
+h1:hover{
+    transform: translateY(-10px);
+}
+</style>
